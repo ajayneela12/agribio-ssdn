@@ -1,0 +1,78 @@
+AgriBio-SSDN grouped 5-fold cross-validation report
+
+Source: C:\Users\Ajay\OneDrive\Desktop\project\final project\agribio_ssdn\data\processed\train_wide.csv
+Grouping proxy: State + "_" + Sampling_Date
+Splitter: sklearn.model_selection.GroupKFold(n_splits=5)
+Note: group_id is a sampling-context proxy; no verified field/location/session ID is available.
+
+Total images: 357
+Total groups: 30
+Number of folds: 5
+
+Fold 0:
+  Validation images: 73
+  Training images: 284
+  Validation groups (6): NSW_07-05-2015, Tas_03-09-2015, Tas_18-05-2015, Tas_19-05-2015, Tas_29-06-2015, WA_08-07-2015
+  Validation target means:
+    Dry_Clover_g: 4.180289
+    Dry_Dead_g: 11.579453
+    Dry_Green_g: 20.621486
+    Dry_Total_g: 36.381232
+    GDM_g: 24.801781
+
+Fold 1:
+  Validation images: 72
+  Training images: 285
+  Validation groups (6): NSW_24-02-2015, NSW_25-02-2015, Tas_01-07-2015, Tas_09-11-2015, Vic_30-06-2015, WA_01-09-2015
+  Validation target means:
+    Dry_Clover_g: 8.721753
+    Dry_Dead_g: 11.565306
+    Dry_Green_g: 32.566703
+    Dry_Total_g: 52.853764
+    GDM_g: 41.288453
+
+Fold 2:
+  Validation images: 67
+  Training images: 290
+  Validation groups (6): NSW_01-04-2015, Tas_04-09-2015, Vic_19-08-2015, Vic_26-06-2015, Vic_29-09-2015, Vic_30-09-2015
+  Validation target means:
+    Dry_Clover_g: 8.976157
+    Dry_Dead_g: 10.113366
+    Dry_Green_g: 26.932179
+    Dry_Total_g: 46.017093
+    GDM_g: 35.908331
+
+Fold 3:
+  Validation images: 73
+  Training images: 284
+  Validation groups (6): Tas_10-11-2015, Vic_01-07-2015, Vic_13-10-2015, Vic_14-08-2015, Vic_18-08-2015, WA_21-08-2015
+  Validation target means:
+    Dry_Clover_g: 9.556770
+    Dry_Dead_g: 11.385407
+    Dry_Green_g: 21.247475
+    Dry_Total_g: 42.189647
+    GDM_g: 30.804244
+
+Fold 4:
+  Validation images: 72
+  Training images: 285
+  Validation groups (6): NSW_06-10-2015, NSW_15-01-2015, Tas_11-09-2015, Tas_26-06-2015, Vic_02-07-2015, Vic_14-10-2015
+  Validation target means:
+    Dry_Clover_g: 1.968974
+    Dry_Dead_g: 15.460711
+    Dry_Green_g: 31.935182
+    Dry_Total_g: 49.364864
+    GDM_g: 33.904154
+
+Distribution of validation-fold target means:
+      Dry_Clover_g  Dry_Dead_g  Dry_Green_g  Dry_Total_g     GDM_g
+mean      6.680788   12.020849    26.660605    45.361320 33.341393
+std       3.397029    2.017256     5.668991     6.389378  6.111950
+min       1.968974   10.113366    20.621486    36.381232 24.801781
+max       9.556770   15.460711    32.566703    52.853764 41.288453
+
+Strict validation:
+  Every image assigned to exactly one validation fold: PASS
+  Every group assigned to exactly one validation fold: PASS
+  Train/validation image intersections are empty for all folds: PASS
+  Train/validation group intersections are empty for all folds: PASS

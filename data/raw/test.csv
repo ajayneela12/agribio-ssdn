@@ -1,0 +1,6 @@
+sample_id,image_path,target_name
+ID1001187975__Dry_Clover_g,test/ID1001187975.jpg,Dry_Clover_g
+ID1001187975__Dry_Dead_g,test/ID1001187975.jpg,Dry_Dead_g
+ID1001187975__Dry_Green_g,test/ID1001187975.jpg,Dry_Green_g
+ID1001187975__Dry_Total_g,test/ID1001187975.jpg,Dry_Total_g
+ID1001187975__GDM_g,test/ID1001187975.jpg,GDM_g

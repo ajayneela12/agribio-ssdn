@@ -1,0 +1,37 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Raw dataset images
+data/raw/train/*.jpg
+data/raw/test/*.jpg
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# IDE
+.vscode/
+.idea/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Model checkpoints
+checkpoints/*.pt
+checkpoints/*.pth
+checkpoints/*.ckpt
+
+# Results generated during experiments
+results/*.csv
+results/*.json
+
+# Secrets
+.env
+*.token
+
+# OS files
+.DS_Store
+Thumbs.db

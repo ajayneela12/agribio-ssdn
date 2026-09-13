@@ -1,0 +1,18 @@
+AgriBio-SSDN training image validation report
+
+Total images checked: 357
+Readable images (Pillow verify + full decode): 357
+Corrupted/unreadable images: 0
+Mode distribution: {'RGB': 357}
+Channel distribution: {'3': 357}
+
+Width: min=2000, max=2000, mean=2000.000
+Height: min=1000, max=1000, mean=1000.000
+Aspect ratio (width/height): min=2.000000, max=2.000000, mean=2.000000
+
+Exact SHA-256 duplicate sets: 0
+Exact duplicate images: 0
+Suspicious/blank image count: 0
+Criteria: unreadable/missing; zero dimensions; side <64px or >4096px; channel count outside 1/3/4; all decoded pixels identical; decoded pixel standard deviation <=1.0.
+
+IMAGE VALIDATION: PASS
